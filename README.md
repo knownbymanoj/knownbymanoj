@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @knownbymanoj
 - 👀 I’m interested in Python , R languages
-- 🌱 I’m currently searching for Machine Learning Intern Roles.
-- 💞️ I’m looking to collaborate on python codes that needs development or testing 
+- 🌱 I’m currently searching for Machine Learning, Data Scientist Intern Roles.
+- 💞️ I’m looking to collaborate that need any help with Dproblems realted to Data Science.
 - 📫 You can reach me via manojkumar.nagabandi@outlook.com
-
-
