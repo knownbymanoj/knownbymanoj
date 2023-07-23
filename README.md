@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Large Language Models to increase Bussiness Value of a company.<br>👯 I’m looking to collaborate on areas of Machine Learning, Deep Learning, Computer Vision and NLP.<br>🤝 I’m looking for someone who can collaborate and ready to gain invaluble new skills.<br>🌱 I’m currently studying Data Science at University of Padova, Italy and aim to finish it by September 2023.<br>💬 Feel free to connect with me regarding anything you need.
+🔭 I’m currently working on Forecasting and Large Language Models to increase Bussiness Value of a company.<br>👯 I’m looking to collaborate on areas of Machine Learning, Deep Learning, Computer Vision and NLP.<br>🤝 I’m looking for someone who can collaborate and ready to gain invaluble new skills.<br>🌱 I’m currently studying Data Science at University of Padova, Italy and aim to finish it by September 2023.<br>💬 Feel free to connect with me regarding anything you need.
 
 
 ## 🌐 Socials:
