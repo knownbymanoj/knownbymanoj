@@ -1,16 +1,110 @@
-# 💫 About Me:
-🔭 I’m currently working on Forecasting and Large Language Models to increase Bussiness Value of a company.<br>👯 I’m looking to collaborate on areas of Machine Learning, Deep Learning, Computer Vision and NLP.<br>🤝 I’m looking for someone who can collaborate and ready to gain invaluble new skills.<br>🌱 I’m currently studying Data Science at University of Padova, Italy and aim to finish it by September 2023.<br>💬 Feel free to connect with me regarding anything you need.
+<div align="center">
 
+# Manoj Kumar Nagabandi
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/manoj-nagabandi/) 
+**AI Engineer · RAG & Multi-Agent Systems · LangChain · PydanticAI · FastAPI**
 
-# 💻 Tech Stack:
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+*Building production-grade AI systems — from architecture to deployment.*
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
----
-[![](https://visitcount.itsvg.in/api?id=knownbymanoj&icon=0&color=0)](https://visitcount.itsvg.in)
+📍 Italy → Stockholm, Sweden &nbsp;|&nbsp; 🇮🇳 Indian · EU Long-Term Resident Visa
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+</div>
+
+***
+
+## Who I Am
+
+I'm a Full-Stack AI Engineer with 3+ years of production experience building enterprise-scale AI systems. As the **sole AI engineer at SIPA SpA** (Zoppas Industries Group), I designed and productionised **ECHO Platform** — an enterprise AI assistant ecosystem serving **3,000+ internal staff and customers globally**, integrating ERP, CRM, PLM, ticketing, and IoT data streams through three specialised AI agents.
+
+My work spans the full lifecycle: problem framing → system architecture → retrieval design → agent orchestration → evaluation → production deployment → LLMOps observability. I care about systems that are measurable, explainable, and maintainable at scale.
+
+***
+
+## 🚀 What I've Built in Production
+
+> *All projects below were built at SIPA SpA. Proprietary code lives on the company's internal GitLab. Open-source reconstructions are in progress — see the pinned repos below.*
+
+### 🤖 ECHO Platform — Enterprise AI Agent Ecosystem
+**Agentic real-time query system** connecting to 25+ live REST APIs (machines, orders, production data, alarms) via hierarchical intent classification → parameter extraction → parallel function calling → LLM answer synthesis. Integrated into the platform backend via WebSockets + JavaScript front-end, with RBAC data security for 3,000+ users. Includes Langfuse observability, real-time user feedback loops, and continuous RAG evaluation.
+
+`PydanticAI` `Django` `WebSockets` `Langfuse` `OpenAI` `PostgreSQL` `REST APIs` `RBAC`
+
+***
+
+### 🚚 Agentic FleetOps Copilot — Conversational Fleet Intelligence
+Built a conversational fleet intelligence system that predicts truck component failures, explains risk with SHAP, and supports maintenance decisions through an agentic chat interface backed by FastAPI services. The project combines **PydanticAI, XGBoost, Langfuse, and a Scania-inspired fleet simulator**, using real predictive-maintenance patterns from the Component X dataset.
+
+`PydanticAI` `FastAPI` `XGBoost` `SHAP` `Langfuse` `Predictive Maintenance` `Agentic Systems` `Simulator`
+
+***
+
+### 📄 Manuals Assistant — Hybrid RAG for Industrial PDFs
+**Advanced hybrid RAG pipeline** for industrial PDF manuals (maintenance, installation, operational). Parses hierarchical document structures via Table of Contents, stores chapter/sub-chapter hierarchies in PostgreSQL with dynamic linking to pgvector embeddings (OpenAI text-embedding-3-large, dim=256) in AWS S3. Implements FTS + vector search fused with **Reciprocal Rank Fusion (RRF)**, LLM re-ranking, extractive summarisation with citations, and multi-turn query rewriting.
+
+`RAG` `pgvector` `PostgreSQL` `AWS S3` `Hybrid Search` `RRF` `OpenAI Embeddings` `Langfuse` `Django`
+
+***
+
+### 🎫 Help Desk Assistant — Ticket Intelligence
+**Data pipeline for historical service ticket retrieval**: PII removal via a domain-specific technical glossary, structured metadata extraction (alarms, machine models, issue types), and embedding-based indexing. Dual-mode retrieval: deterministic query mode (structured ticket search by parameters) + RAG semantic mode, with cited ticket references for traceability.
+
+`RAG` `NLP` `Django` `PII Removal` `Metadata Extraction` `Semantic Search` `PostgreSQL` `LangChain` `Langfuse` `Docker`
+
+***
+
+### 📈 Multiple Time Series Forecasting — 4,200 Machines Simultaneously
+Developed a forecasting solution predicting **alarm events and production cycle timing across 4,200 industrial machines at once**, enabling proactive maintenance scheduling. Applied **XGBoost + Transformer-based architectures (LSTM, ARIMA)** on large-scale industrial sensor data.
+
+`XGBoost` `LSTM` `ARIMA` `Transformers` `Scikit-learn` `MLflow` `Time Series` `PySpark`
+
+***
+
+## 📌 Pinned Projects *(Open-source rebuilds — coming soon)*
+
+| Project | What it demonstrates | Status |
+|---|---|---|
+| `agentic_fleetops_copilot` | Conversational fleet intelligence · PydanticAI · FastAPI · XGBoost · SHAP · Langfuse | 🚀 Latest build |
+| `rag-knowledge-assistant` | Hybrid RAG pipeline · pgvector · RRF · evaluation with RAGAS | 🔧 In progress |
+| `multi-agent-orchestration` | PydanticAI agents · LangGraph · intent routing · tool calling | 🔧 In progress |
+
+> These are **clean, open-source reconstructions** built from public knowledge and public datasets — not employer code. They demonstrate the same architectural patterns from first principles.
+
+***
+
+## 🛠 Tech Stack
+
+**Generative AI & LLMs**
+**Agentic & LLMOps**
+**Backend & APIs**
+**ML & Data Science**
+**Databases & Storage**
+
+***
+
+</div>
+
+***
+
+## 🎓 Education
+
+| Degree | Institution | Year |
+|---|---|---|
+| M.Sc. Data Science | University of Padova, Italy | 2021 – 2023 |
+| B.Sc. Engineering Sciences | University of Rome Tor Vergata, Italy | 2017 – 2021 |
+
+***
+
+## 🌍 Currently
+
+- 🏢 Full-Stack AI Engineer @ **SIPA SpA** (Zoppas Industries Group) — Italy
+- 🎯 Open to senior AI/ML Engineer roles in **Stockholm, Sweden** or **remote Europe**
+- 🔧 Building open-source AI portfolio at **[manojnagabandi.dev](https://manojnagabandi.dev)**
+- 🌐 Languages: English · Italian · Hindi · Telugu
+
+***
+
+<div align="center">
+
+**Let's connect → [manojnagabandi.dev](https://manojnagabandi.dev) · [LinkedIn](https://www.linkedin.com/in/manoj-nagabandi/)**
+
+</div>
